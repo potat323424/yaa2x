@@ -68,7 +68,7 @@ body{
 
 .button-2:hover {
 
-padding: 25px 25px;
+    transform: scale(1.1);
 
 }
 
@@ -94,13 +94,12 @@ padding: 25px 25px;
 }
 .img-1{
     border-radius: 25px;
-    transition: 1s;
+    transition: 0.3s;
     margin: 100px;
 }
 
 .img-1:hover{
-    width: 125px;
-    height: 125px;
+    transform: scale(2.2);
    
 }
 
