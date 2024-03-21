@@ -20,6 +20,8 @@ body{
     background-color: rgb(110, 203, 17);
     background-size: cover;
     background-repeat: no-repeat;
+   
+    
 }
 
 .button-2{
@@ -88,9 +90,8 @@ body{
     position: sticky;
     top: 0;
     display: flex;
-    width: 100%;
     background-color: darkgreen;
-    height: 50px;
+    height: 70px;
 }
 .img-1{
     border-radius: 25px;
@@ -101,5 +102,42 @@ body{
 .img-1:hover{
     transform: scale(2.2);
    
+}
+.h2{
+
+    color: white;
+
+}
+
+.div-1{
+    background-image: linear-gradient(yellow,orange);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.div-2{
+    background-color:#6f1a84;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-2:hover{
+    transform: scale(1.8);
+   
+}
+
+.img-2{
+    border-radius: 25px;
+    transition: 0.3s;
+    margin: 100px;
+}
+
+.h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-bar{
+    margin-right: 33.3333333333px;
 }
 
