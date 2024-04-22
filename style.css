@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
 .header-1{
 
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:"Russo One";
     color: rgb(255, 255, 255);
     text-align: center;
     align-items: center;
@@ -17,12 +19,12 @@
 
 body{
 
-    background-image: url('hq720.jpg'); 
+    background-image: url('Screenshot\ 2024-04-19\ 005726.png'); 
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: 120%;
-      
+    margin: 0px;
 } 
 
 .button-2{
@@ -91,8 +93,8 @@ body{
     position: sticky;
     top: 0;
     display: flex;
-    background-color: darkgreen;
-    height: 70px;
+    background-color: green;
+    height: 49px;
 }
 .img-1{
     border-radius: 25px;
@@ -123,15 +125,12 @@ body{
     background-size: cover;
 }
 
-.img-2:hover{
-    transform: scale(1.8);
-   
-}
 
 .img-2{
     border-radius: 25px;
-    transition: 0.3s;
-    margin: 100px;
+    
+    
+    text-decoration: none;
 }
 
 .h2{
@@ -139,7 +138,8 @@ body{
 }
 
 .nav-bar{
-    margin-right: 33.3333333333px;
+
+    align-items: center;
 }
 
 .search{
@@ -147,5 +147,128 @@ body{
     height: 50px;
 }
 
+.button-3{
+  padding: 25px 50px;
+  border-radius: 60px;
+  cursor: pointer;
+  transition: 0.3s;
+  background-color: green;
+  font-family: "Russo One";
+}
 
+.button-3:hover{
+   transform: rotate(20deg);
+   padding: 30px 55px;
 
+  }
+
+.rectangle-sigma{
+    width: 210px;
+    height: 220px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-radius: 25px;
+    background-color: green;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    color:greenyellow;
+    font-family: "Russo One";
+    backdrop-filter: blur(5px);
+    width: fit-content;
+    height: fit-content;
+    max-width: 210px;
+    margin-right: 10px;
+}
+
+.rectangle-sigma:hover{
+    transform: scale(1.2);
+}
+
+a{
+    text-align: center;
+    text-decoration: none;
+}
+
+.link-wrappr{
+    display: inline-block; /* Ensure the <a> element only takes up necessary space */
+    max-width: 210px; 
+}
+
+.FLDS{
+    border-radius: 25px;
+    width: 500px;
+    height: 50px;
+    font-size: 25px;
+    background-color: rgb(5, 255, 5);
+    backdrop-filter: blur(5px);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+   
+}
+
+.SEARCHIT{
+    border-radius: 25px;
+    width: 90px;
+    height: 70px;
+    background-color: rgb(5, 255, 5);
+    color: white;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.nav-bar ul{
+    list-style-type: none;
+    background-color: green;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.nav-bar a{
+color: white;
+text-decoration: none;
+padding: 15px;
+display: block;
+text-align: center;
+transition: 0.5;
+
+}
+
+.nav-bar a:hover{
+    background-color: rgba(19, 237, 19, 0.945);
+    
+}
+
+.nav-bar li{
+    float:left;
+    font-family: "Russo One";
+    
+}
+
+.rectangle-sigma-2{
+    width: 600px;
+    height: 600px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-radius: 25px;
+    background-color: orange;
+    display: grid;
+    justify-content: center;
+    align-items: center;    
+    transition: 0.3s;
+    color:rgb(255, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    backdrop-filter: blur(5px);
+    width: fit-content;
+    height: fit-content;
+    max-width: 210px;
+    margin-right: 10px;
+    font-weight: bold;
+}
