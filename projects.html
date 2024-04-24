@@ -68,14 +68,14 @@
     <script>
            function SEARCH() {
         // Get the search query from the input field
-        var query = document.getElementById('Search').value;
+        var query = document.getElementById('searchInput').value;
         
         // Trigger the browser's native find functionality
         window.find(query);     
     }
     </script>
     <center>
-    <input class="FLDS" type="text" id="Search" placeholder="Search" />
+    <input class="FLDS" type="text" id="searchInput" placeholder="Search" />
     <button onclick="SEARCH()" class="SEARCHIT">SEARCH</button>
     </center>
 <center>
