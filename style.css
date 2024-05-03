@@ -272,3 +272,26 @@ transition: 0.5;
     margin-right: 10px;
     font-weight: bold;
 }
+
+.rectangle-sigma-3{
+    width: 600px;
+    height: 600px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-radius: 25px;
+    background-color:green;
+    display: grid;
+    justify-content: center;
+    align-items: center;    
+    transition: 0.3s;
+    color:greenyellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    backdrop-filter: blur(5px);
+    width: fit-content;
+    height: fit-content;
+    max-width: 210px;
+    margin-right: 10px;
+    font-weight: bold;
+}
